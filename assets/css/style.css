@@ -1,0 +1,182 @@
+/*Font Face*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 80%;
+}
+/* Common Code End */
+/*header start*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url(../img/banner.jpg);
+  background-size: cover;
+}
+/*navbar start*/
+.fa-rebel {
+	color: #30C39E;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #30C39E;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #30C39E;
+}
+/*navbar end*/
+/*banner start*/
+.banner h1 {
+  color: #30C39E;
+  letter-spacing: 2px;
+  font-size: 55px;
+  font-weight: 900;
+}
+.banner p {
+    font-size: 18px;
+    line-height: 35px;
+}
+.banner a {
+  letter-spacing: 1px;
+}
+.banner .btn-outline-light:hover {
+  color: #fff;
+  background-color: #30C39E;
+  border-color: #30C39E;
+}
+/*banner end*/
+
+/*header end*/
+/*about-us start*/
+.about-us h2 {
+  letter-spacing: 5px;
+}
+.about-us h2::after {
+  content: '';
+  width: 100px;
+  height: 3px;
+  background: black;
+  display: block;
+  margin: 0 auto;
+}
+.about-us h4 {
+  line-height: 40px;
+}
+.about-us p {
+    line-height: 30px;
+    text-align: justify;
+}
+.about-us .btn-outline-primary {
+    color: #fff;
+    background-color: #0a8ea0;
+    border-color: #0a8ea0;
+}
+.about-us .btn-outline-primary:hover {
+    color: black;
+    background-color: #ffffff;
+    border-color: #000000;
+}
+/*about-us end*/
+/*services start*/
+.services {
+  background: #30C39E;
+}
+.services h2 {
+  letter-spacing: 5px;
+}
+.services h2::after {
+  content: '';
+  width: 100px;
+  height: 3px;
+  background: #fff;
+  display: block;
+  margin: 0 auto;
+}
+.services p {
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+/*services end*/
+/*experience start*/
+.experience h2 {
+  letter-spacing: 5px;
+}
+.experience h2::after {
+  content: '';
+  width: 100px;
+  height: 3px;
+  background: black;
+  display: block;
+  margin: 0 auto;
+}
+.experience .card-body {
+  background: #F8F9FA;
+  
+}
+.experience h5 span {
+    background: #30C39E;
+    font-size: 14px;
+    padding: 3px 10px;
+    color: white;
+}
+.experience p {
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+/*experience end*/
+/*text start*/
+.text {
+  background: #0A8EA0;
+}
+.text p{
+  line-height: 30px; 
+  color: #DDDDDD;
+}
+.text .btn {
+  padding: 10px 30px;
+  /*color: black;
+  background: white;*/
+}
+.text .btn-outline-light {
+  color: #0A8EA0;
+  background: white;
+}
+.text .btn-outline-light:hover {
+  color: white;
+  background: black;
+  border-color: black;
+}
+.text .btn-outline-dark {
+  color: white;
+  background: black;
+}
+.text .btn-outline-dark:hover {
+  color: #0A8EA0;
+  background: white;
+  border-color: white;
+}
+/*text end*/
+/*footer start*/
+footer {
+  background: #191919;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #999999;
+  background: #222222;
+  padding: 8px 12px;
+}
+footer .top {
+  color: #fff;
+  background: #191919;
+  padding: 6px 10px;
+  border: 1px solid #222222;
+  border-radius: 50%;
+}
+/*footer end*/
